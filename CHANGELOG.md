@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- `greet(name, punctuation="!")`: fixed exclamation mark → optional custom punctuation while preserving the default.
+
+### Fixed
+- `greet(name)`: empty or whitespace-only names produced a blank greeting → use `world` instead.
+
 ## [0.1.0] - 2026-11-09
 
 ### Added
